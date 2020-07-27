@@ -89,6 +89,7 @@ type store struct {
 
 	ig ConsistentIndexGetter
 
+	//存储后端
 	b       backend.Backend
 	kvindex index
 
